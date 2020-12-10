@@ -151,10 +151,11 @@ p {
 
 /* home */
 #home {
-  background: url("image/background6.png") center/cover no-repeat;
+  background: url("image/backgrounds.png") center/cover no-repeat;
   padding: 40px;
-  padding-top: 120px;
+  padding-top: 258px;
   text-align: center;
+  padding-bottom: 258px;
 }
 
 .home__avatar {
@@ -169,6 +170,8 @@ p {
   color: var(--color-white);
   font-family: "Poiret One", cursive;
   letter-spacing: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .home__contact {
@@ -192,6 +195,7 @@ p {
   text-align: center;
   padding: 50px;
   margin: auto;
+  padding-top: 100px;
 }
 
 .section__container {
@@ -514,6 +518,11 @@ p {
     --font-small: 14px;
     --font-micro: 12px;
   }
+  #home {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
   .navbar__toggle-btn {
     display: block;
     top: 10px;
